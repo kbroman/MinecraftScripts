@@ -15,3 +15,10 @@ These are scripts that I'm using.
 
 - Use `tmux a -t minecraft` to enter that session and `C-\ d` to exit
   while letting it continue to run.
+
+---
+
+main source:
+
+- [this answer](https://unix.stackexchange.com/a/511601) helped with
+  tmux/cron
