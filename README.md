@@ -9,13 +9,13 @@ These are scripts that I'm using.
 - `start_tmux.sh` checks if there is a tmux session named
   "`minecraft`" and if not it starts one running `start.sh`
 
-  ```
-  */1 * * * * /home/pi/minecraft/start_tmux.sh
-  ```
-
 - I use a cron job (with `crontab -e`) to check every minute if there's a tmux
   minecraft session, and if not start one (mostly to get it started at
   boot).
+
+  ```
+  */1 * * * * /home/pi/minecraft/start_tmux.sh
+  ```
 
 - Use `tmux a -t minecraft` to enter that session and `C-\ d` to exit
   while letting it continue to run (or `C-b d` if you're using the
