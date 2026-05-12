@@ -14,7 +14,8 @@ These are scripts that I'm using.
   boot).
 
 - Use `tmux a -t minecraft` to enter that session and `C-\ d` to exit
-  while letting it continue to run.
+  while letting it continue to run (or `C-b d` if you're using the
+  traditional tmux prefix).
 
 ---
 
